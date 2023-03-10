@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "<% packageName %>",
+  "description": "<%= description %>",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {}
+}

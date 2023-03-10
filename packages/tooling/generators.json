@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "name": "tooling",
+  "version": "0.0.1",
+  "generators": {
+    "create-package": {
+      "factory": "./src/generators/create-package/generator",
+      "schema": "./src/generators/create-package/schema.json",
+      "description": "creating a new package"
+    }
+  }
+}
